@@ -1,0 +1,15 @@
+# Ignore datasets
+data/
+
+# Ignore MLflow logs
+mlruns/
+
+# Python cache
+__pycache__/
+
+# Model files
+*.pt
+*.onnx
+
+# Environment files
+.env
