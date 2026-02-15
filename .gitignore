@@ -1,15 +1,16 @@
-# Ignore datasets
-data/
-
-# Ignore MLflow logs
-mlruns/
+# Virtual environment
+.venv/
 
 # Python cache
 __pycache__/
+*.pyc
 
-# Model files
-*.pt
-*.onnx
+# MLflow
+mlruns/
+mlflow.db
 
-# Environment files
-.env
+# Model file
+model.pt
+
+# Data folder
+data/
